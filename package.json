@@ -6,7 +6,7 @@
     "license": "MIT",
     "type": "module",
     "scripts": {
-        "start": "node server.js",
+        "start": "cd website",
         "dev": "http-server",
         "test": "mocha test",
         "lint": "eslint source",
@@ -98,6 +98,6 @@
         }
     },
     "engines": {
-        "node": ">=10.0.0"
+        "node": ">=16.0.0"
     }
 }
